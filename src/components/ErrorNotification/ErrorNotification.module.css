@@ -1,0 +1,38 @@
+.error {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+  width: 400px;
+  background-color: rgba(255, 192, 203, 0.9);
+  right: 80px;
+  opacity: 0;
+  animation: fade 3s;
+}
+
+@media screen and (max-width: 768px) {
+  .error {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25%,
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.error__message {
+  color: red;
+}

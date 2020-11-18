@@ -1,0 +1,47 @@
+.home {
+}
+
+.header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.header__title {
+  font-size: 50px;
+}
+
+.article {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section {
+  border: 5px solid grey;
+  border-radius: 10px;
+  width: 1000px;
+  margin: 20px;
+}
+
+.section__title {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section__content {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .article {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 20px;
+  }
+  .article {
+    margin: 20px;
+  }
+}
