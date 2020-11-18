@@ -21,7 +21,7 @@ function ErrorNotification() {
         dispatch({ type: ActionType.RESET_ERROR });
       }, 3000);
     }
-  }, [dispatch, errors]);
+  }, [dispatch, errors, prevLength]);
 
   return (
     <>
