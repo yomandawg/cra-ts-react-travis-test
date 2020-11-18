@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Posts.module.css';
+import styles from 'components/Posts/Posts.module.css';
 
 function Posts() {
   return <div>Posts</div>;

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import styles from './Home.module.css';
+import styles from 'components/Home/Home.module.css';
 
 import { State } from 'reducers';
 import { ActionType, User, Post, getUsers, getPosts } from 'actions';

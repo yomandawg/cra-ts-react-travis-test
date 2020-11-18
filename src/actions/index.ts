@@ -1,6 +1,6 @@
-export * from './user';
-export * from './error';
-export * from './post';
+export * from 'actions/user';
+export * from 'actions/error';
+export * from 'actions/post';
 
 export enum ActionType {
   /**user actions */

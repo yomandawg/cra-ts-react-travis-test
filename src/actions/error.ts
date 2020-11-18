@@ -1,4 +1,4 @@
-import { ActionType } from './index';
+import { ActionType } from 'actions';
 
 export interface UserErrorAction {
   type: ActionType.USER_ERROR;
