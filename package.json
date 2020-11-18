@@ -54,6 +54,8 @@
     ]
   },
   "devDependencies": {
+    "@types/puppeteer": "^5.4.0",
+    "puppeteer": "^5.5.0",
     "react-hot-loader": "^4.13.0",
     "redux-devtools-extension": "^2.13.8"
   }

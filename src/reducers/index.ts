@@ -3,9 +3,9 @@ import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
-import { userReducer } from './user';
-import { postReducer } from './post';
-import { errorReducer } from './error';
+import { userReducer } from 'reducers/user';
+import { postReducer } from 'reducers/post';
+import { errorReducer } from 'reducers/error';
 import { User, Post } from 'actions';
 
 export interface State {

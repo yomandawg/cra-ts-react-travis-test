@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { Dispatch } from 'redux';
-import { ActionType, UserErrorAction } from './index';
+import { ActionType, UserErrorAction } from 'actions/index';
 
 const API_URL = 'https://jsonplaceholder.typicode.com/users/';
 

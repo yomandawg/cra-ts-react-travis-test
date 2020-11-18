@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import styles from './ErrorNotification.module.css';
+import styles from 'components/ErrorNotification/ErrorNotification.module.css';
 
 import { usePrevious } from 'hooks';
 import { State } from 'reducers';
